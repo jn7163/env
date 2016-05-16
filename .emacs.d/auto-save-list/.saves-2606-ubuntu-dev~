@@ -1,0 +1,10 @@
+/home/luke/tracker/lib/postgis.rb
+/home/luke/tracker/lib/#postgis.rb#
+/home/luke/tracker/trackerweb/app/views/map/show.erb
+/home/luke/tracker/trackerweb/app/views/map/#show.erb#
+/home/luke/tracker/tracker.rb
+/home/luke/tracker/#tracker.rb#
+/home/luke/tracker/trackerweb/app/controllers/map_controller.rb
+/home/luke/tracker/trackerweb/app/controllers/#map_controller.rb#
+/home/luke/tracker/trackerweb/db/migrate/20160301171047_create_geom_viz.rb
+/home/luke/tracker/trackerweb/db/migrate/#20160301171047_create_geom_viz.rb#
