@@ -4,4 +4,5 @@ echo deb     http://ppa.launchpad.net/ubuntugis/ubuntugis-unstable/ubuntu xenial
 sudo apt-get update
 sudo apt-get install git terminator emacs qgis python-qgis qgis-plugin-grass postgis build-essential ruby 
 
-gem install rails
+gem install rails pg serialport bundler
+
