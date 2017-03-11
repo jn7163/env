@@ -1,8 +1,8 @@
 (setq sml/no-confirm-load-theme t)
 
-(require 'package) ;; You might already have this line
-(add-to-list 'package-archives
-             '("melpa" . "https://melpa.org/packages/"))
+;;(require 'package) ;; You might already have this line
+;;(add-to-list 'package-archives
+;;             '("melpa" . "https://melpa.org/packages/"))
 
 
 
@@ -43,6 +43,7 @@
 ;; then enter the text in that file's own buffer.
 
 ")
+ '(package-selected-packages (quote (persistent-soft heroku-theme ergoemacs-mode)))
  '(scroll-error-top-bottom nil)
  '(set-mark-command-repeat-pop nil)
  '(shift-select-mode t))
