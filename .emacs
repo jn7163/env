@@ -1,5 +1,10 @@
 (setq sml/no-confirm-load-theme t)
 
+(require 'package) ;; You might already have this line
+(add-to-list 'package-archives
+             '("melpa" . "https://melpa.org/packages/"))
+
+
 
 (package-initialize)
 (require 'ergoemacs-mode)
@@ -8,7 +13,7 @@
 
 
 
-(load-theme 'zenburn t)
+(load-theme 'heroku t)
 
 (setq inhibit-startup-screen t)
 

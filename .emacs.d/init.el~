@@ -1,2 +1,0 @@
-(package-initialize)
-(require 'ergoemacs-mode)
