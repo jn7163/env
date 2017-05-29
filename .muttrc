@@ -1,0 +1,25 @@
+# from setup_settings
+set my_server = "imap.fastmail.com"
+set my_smtp_server = "smtp.fastmail.com"
+set my_user = "luke@reid.org.nz"
+set my_pass = "kw7t7wfyssdxgcz8"
+
+# imap
+set mbox_type       = Maildir         # mailbox type
+set imap_user       = $my_user
+set imap_pass       = $my_pass
+set folder          = "imaps://$my_server:993/"
+set spoolfile       = "=INBOX"
+set postponed       = "=INBOX.Drafts"
+
+#set mailboxes "=INBOX" # add folders here like "=INBOX.label"
+
+# going through fastmail, setting this will save the email twice
+unset record
+
+# smtp
+set smtp_pass = $my_pass
+set smtp_url = smtp://$my_user@$my_smtp_server:587/
+set ssl_starttls = yes
+
+set realname = "Luke Reid"
